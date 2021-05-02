@@ -1,4 +1,4 @@
-'''
+"""
 --- Day 1: Not Quite Lisp ---
 Santa was hoping for a white Christmas, but his weather machine's "snow" 
 function is powered by stars, and he's fresh out! To save Christmas, he needs 
@@ -40,16 +40,16 @@ For example:
 ) causes him to enter the basement at character position 1.
 ()()) causes him to enter the basement at character position 5.
 What is the position of the character that causes Santa to first enter the basement?
-'''
+"""
 
 def part1():
-    '''
+    """
     Traverses the floors per the instructions in the puzzle input.
     
     Returns:
         
         floor (int) : Santa's final location
-    '''
+    """
     
     with open('day1.txt', 'r') as f:
         data = f.read()
@@ -65,14 +65,15 @@ def part1():
     return floor
 
 def part2():
-    '''
+    """
     Traverses the floors per the instructions in the puzzle input.
     
     Returns:
         
         i (int) : The index of the floor instruction that first moves Santa into
             the basement (beginning at index 1)
-    '''
+    """
+    
     with open('day1.txt', 'r') as f:
         data = f.read()
 
