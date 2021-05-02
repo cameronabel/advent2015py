@@ -46,8 +46,8 @@ def part1():
     """
     Traverses the floors per the instructions in the puzzle input.
     
-    Returns:
-        
+    Returns
+    -------
         floor (int) : Santa's final location
     """
     
