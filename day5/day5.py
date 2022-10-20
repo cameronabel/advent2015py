@@ -54,7 +54,8 @@ def nice_vowels(s):
     matches = re.findall(r'[aeiou]', s)
 
     return len(matches) >= 3
-    
+
+
 def nice_combos(s):
     """Returns True if the string does NOT contain ab, cd, pq, or xy."""
     matches = re.findall(r'(ab)|(cd)|(pq)|(xy)', s)
